@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".freesub"
+    android:background="@drawable/backgardient"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_weight="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="หมวดวิชา"
+                android:textSize="50sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorwhite"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/free6kit">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="6\nหน่วยกิต"
+                        android:textAlignment="center"
+                        android:textSize="24sp"
+                        android:textColor="#f44236"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.75"
+                    android:text="เสรี"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorwhite"
+                    android:textSize="50sp"
+                    android:textAlignment="textEnd"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:src="@drawable/thinkim"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/bgfreesub"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="นักศึกษาสามารถเลือกเรียน\nในรายวิชาที่เปิดสอนในสถาบัน\nเทคโนโลยีพระจอมเกล้าเจ้าคุณทหาร\nลาดกระบังจำนวนไม่น้อยกว่า 6 หน่วยกิต"
+            android:textColor="#111111"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:layout_marginTop="90dp"/>
+        <ImageView
+            android:id="@+id/bbkk"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:src="@drawable/btback"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

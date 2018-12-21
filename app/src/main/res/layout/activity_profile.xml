@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgardient"
+    tools:context=".Profile"
+    android:screenOrientation="portrait">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bkprofi"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:text="M"
+                        android:textSize="50sp"
+                        android:textStyle="bold"
+                        android:textAlignment="textEnd"
+                        android:textColor="#de7677"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Y PROFILE"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="#de7677"
+                        android:textAlignment="textStart"
+                        android:layout_marginTop="18dp"/>
+                </LinearLayout>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/usershape"
+                    android:padding="20dp"
+                    app:civ_border_width="10dp"
+                    app:civ_border_color="#de7677"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="25dp">
+            <TextView
+                android:id="@+id/name_pro"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75"
+                android:text="@string/name_of_user"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#FFFFFF" />
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#FFFFFF"
+                android:text="ID :" />
+                <TextView
+                    android:id="@+id/Id_pro"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:text="123456789" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="4dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:text="Faculty :"
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/Fac_pro"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:text="123456789" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.32"
+                    android:textAlignment="textStart"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:text="Major :" />
+                <TextView
+                    android:id="@+id/Ma_pro"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:text="123456789" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.26"
+                    android:textAlignment="textStart"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:text="Year :" />
+                <TextView
+                    android:id="@+id/Ye_pro"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:text="123456789" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/backhome"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75"
+                android:src="@drawable/bbthome"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

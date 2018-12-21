@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SubJ</string>
+    <string name="todo">TODO</string>
+    <string name="name_of_user">Name Of User …</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="_2559">หลักสูตรวิทยาศาสตร์บัณฑิตสาขาวิชาวิทยาการคอมพิวเตอร์หลักสูตรปรับปรุง พ.ศ.2559</string>
+    <string name="num_of_kit">จำนวนหน่วยกิตตลอดหลักสูตร</string>
+    <string name="sub_stand"><![CDATA[หมวดวิชาศึกษาทั่วไป >]]></string>
+    <string name="sub_fix"><![CDATA[หมวดวิชาเฉพาะ >]]></string>
+    <string name="sub_notfix"><![CDATA[หมวดวิชาเลือกเสรี >]]></string>
+
+</resources>
