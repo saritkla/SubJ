@@ -79,7 +79,6 @@
                 android:layout_height="0dp"
                 android:layout_marginLeft="20dp"
                 android:layout_weight="0.6"
-                android:text="วิทยาศาสตร์บัณฑิต \nสาขาวิทยาการคอมพิวเตอร์ \nหลักสูตรปรับปรุง พ.ศ.2559"
                 android:textColor="@color/colorwhite"
                 android:textSize="25sp" />
 
